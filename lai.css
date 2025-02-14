@@ -25,9 +25,52 @@ body{
     color:white;
     text-align: center;
     margin-top:10px;
+    display: none;
 }
 
 .name{
     color:yellow;
     text-decoration: underline;
+}
+
+.f{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    color:white;
+    padding:8px;
+    border-radius: 5px;
+    background-color:blue;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+
+.fontdeco{
+    color:gold;
+    font:bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.nametitle{
+    color:blueviolet;
+    font-size:40px;
+    text-align: center;
+    margin:50px;
+    font:bold;
+    background-color:fuchsia;
+    border-radius: 20px;
+    padding: 8px;
+    cursor: pointer;
+}
+.backbtn{
+    color:red;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 20px;
+    font:bold;
+    cursor: pointer;
 }
